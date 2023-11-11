@@ -1385,6 +1385,38 @@ site */
   .blog-right .right-card {
     padding: 16px;
   }
+  /* Contact page */
+
+  .form-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px !important;
+  }
+  .form-wrapper .form-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .form-wrapper .message {
+    height: 185px;
+    width: 100%;
+  }
+  .form-wrapper .personal-infos{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+
+  }
+ 
+  .form-wrapper .btn{
+    width: 100%;
+  }
+
+  .form-wrapper .form-infos{
+    margin-top: 50px;
+    width: 100%;
+  }
 }
 
 @media (max-width: 902px) {
